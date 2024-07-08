@@ -18,7 +18,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/placeholder.svg')" }}>
+      <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/images/hero.jpg')" }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
           <h1 className="text-5xl font-bold">Welcome to Our Website</h1>
