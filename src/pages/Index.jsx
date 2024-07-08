@@ -18,7 +18,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/placeholder.svg')" }}>
+      <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-background.jpg')" }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
           <h1 className="text-5xl font-bold">Welcome to Our Website</h1>
@@ -36,6 +36,7 @@ const Index = () => {
               <CardTitle>Feature 1</CardTitle>
             </CardHeader>
             <CardContent>
+              <img src="/images/feature-1.jpg" alt="Feature 1" className="w-full h-48 object-cover mb-4" />
               <p>Description of feature 1.</p>
             </CardContent>
           </Card>
@@ -44,6 +45,7 @@ const Index = () => {
               <CardTitle>Feature 2</CardTitle>
             </CardHeader>
             <CardContent>
+              <img src="/images/feature-2.jpg" alt="Feature 2" className="w-full h-48 object-cover mb-4" />
               <p>Description of feature 2.</p>
             </CardContent>
           </Card>
@@ -52,6 +54,7 @@ const Index = () => {
               <CardTitle>Feature 3</CardTitle>
             </CardHeader>
             <CardContent>
+              <img src="/images/feature-3.jpg" alt="Feature 3" className="w-full h-48 object-cover mb-4" />
               <p>Description of feature 3.</p>
             </CardContent>
           </Card>
