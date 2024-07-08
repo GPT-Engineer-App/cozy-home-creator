@@ -1,0 +1,21 @@
+{
+  "welcome": "欢迎来到我们的网站",
+  "getStarted": "开始使用",
+  "ourFeatures": "我们的特点",
+  "feature1": "特点 1",
+  "feature1Desc": "特点 1 的描述。",
+  "feature2": "特点 2",
+  "feature2Desc": "特点 2 的描述。",
+  "feature3": "特点 3",
+  "feature3Desc": "特点 3 的描述。",
+  "testimonials": "客户评价",
+  "user1Testimonial": "用户 1 的评价。",
+  "user2Testimonial": "用户 2 的评价。",
+  "user3Testimonial": "用户 3 的评价。",
+  "privacyPolicy": "隐私政策",
+  "termsOfService": "服务条款",
+  "contact": "联系",
+  "home": "首页",
+  "about": "关于",
+  "services": "服务"
+}

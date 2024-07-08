@@ -1,0 +1,21 @@
+{
+  "welcome": "Welcome to Our Website",
+  "getStarted": "Get Started",
+  "ourFeatures": "Our Features",
+  "feature1": "Feature 1",
+  "feature1Desc": "Description of feature 1.",
+  "feature2": "Feature 2",
+  "feature2Desc": "Description of feature 2.",
+  "feature3": "Feature 3",
+  "feature3Desc": "Description of feature 3.",
+  "testimonials": "What Our Clients Say",
+  "user1Testimonial": "Testimonial from user 1.",
+  "user2Testimonial": "Testimonial from user 2.",
+  "user3Testimonial": "Testimonial from user 3.",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "contact": "Contact",
+  "home": "Home",
+  "about": "About",
+  "services": "Services"
+}

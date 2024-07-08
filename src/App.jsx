@@ -1,10 +1,13 @@
+import './i18n';
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Home } from "lucide-react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes, Outlet } from "react-router-dom";
 import Layout from "./layouts/navbar"; // Change from default to navbar
 import Index from "./pages/Index.jsx";
+import LanguageSwitcher from './components/LanguageSwitcher';
+
 const queryClient = new QueryClient();
 
 export const navItems = [
@@ -22,7 +25,12 @@ const App = () => {
         <Toaster />
         <Router>
           <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="/" element={
+              <Layout>
+                <LanguageSwitcher />
+                <Outlet />
+              </Layout>
+            }>
               <Route index element={<Index />} />
               {/* Add more routes here as needed */}
             </Route>
